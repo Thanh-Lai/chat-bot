@@ -34,7 +34,7 @@ Vagrant.configure(2) do |config|
     sudo apt-get install python3-dev python3-pip -y
     alias python=python3
     alias pip=pip3
-    sudo pip3 install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.12.0-cp35-cp35m-linux_x86_64.whl
+    sudo pip3 install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-1.10.0-cp35-cp35m-linux_x86_64.whl
     cd /vagrant
     sudo pip3 install -r requirements.txt
     sudo pip3 install spacy

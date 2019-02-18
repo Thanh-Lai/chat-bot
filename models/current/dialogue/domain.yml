@@ -12,17 +12,17 @@ entities:
 - name
 forms: []
 intents:
-- greet:
-    use_entities: true
-- joke:
-    use_entities: true
-- name:
+- goodbye:
     use_entities: true
 - deny:
     use_entities: true
-- goodbye:
+- name:
     use_entities: true
 - thanks:
+    use_entities: true
+- joke:
+    use_entities: true
+- greet:
     use_entities: true
 slots:
   name:
