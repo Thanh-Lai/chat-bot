@@ -11,4 +11,5 @@ def respond_to_messages(message):
     responses = agent.handle_message(message)
     for r in responses:
         messages.append(r.get("text"))
+    return responses
 

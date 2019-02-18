@@ -1,28 +1,31 @@
 %YAML 1.1
 ---
 actions:
-- utter_name
 - utter_thanks
 - utter_greet
 - utter_goodbye
 - action_joke
+- utter_work_auth_status
+- utter_sponsorship
 config:
   store_entities_as_slots: true
 entities:
 - name
 forms: []
 intents:
-- goodbye:
-    use_entities: true
 - deny:
     use_entities: true
-- name:
+- work_auth_status:
+    use_entities: true
+- sponsorship:
     use_entities: true
 - thanks:
     use_entities: true
 - joke:
     use_entities: true
 - greet:
+    use_entities: true
+- goodbye:
     use_entities: true
 slots:
   name:
@@ -33,8 +36,10 @@ templates:
   utter_goodbye:
   - text: Talk to you later!
   utter_greet:
-  - text: Nice to you meet you {name}. How can I help?
-  utter_name:
-  - text: Hey there! Tell me your name.
+  - text: Hello, how can I help?
+  utter_sponsorship:
+  - text: No. I am a US citizen.
   utter_thanks:
   - text: My pleasure.
+  utter_work_auth_status:
+  - text: I am a US citizen and am authorized to work for any company in the US.

@@ -59,25 +59,6 @@
 - yes yes yes
 - definitely
 
-
-## intent:name
-- My name is [Juste](name)  <!--- Square brackets contain the value of entity while the text in parentheses is a a label of the entity --> 
-- I am [Josh](name)
-- I'm [Lucy](name)
-- People call me [Greg](name)
-- It's [David](name)
-- Usually people call me [Amy](name)
-- My name is [John](name)
-- You can call me [Sam](name)
-- Please call me [Linda](name)
-- Name name is [Tom](name)
-- I am [Richard](name)
-- I'm [Tracy](name)
-- Call me [Sally](name)
-- I am [Philipp](name)
-- I am [Charlie](name)
-
-
 ## intent:joke
 - Can you tell me a joke?
 - I would like to hear a joke
@@ -89,3 +70,14 @@
 - Can you tell jokes?
 - Please tell me a joke
 - I need to hear a joke
+
+## intent:work_auth_status
+- What is your work authorization status?
+- Are you authorized to work lawfully in the United States?
+- Are you a US citizen?
+
+## intent:sponsorship
+- Will you now or in the future require sponsorship?
+- Will you need sponsorship for a work visa?
+- Will you need sponsorship for a H-1B visa?
+- Do you need sponsorship?
